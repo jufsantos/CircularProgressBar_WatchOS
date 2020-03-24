@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756C1C33242A8846006F417D /* ProgressCircleBar_Test_WatchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 756C1C32242A8846006F417D /* ProgressCircleBar_Test_WatchOS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		756C1C39242A8846006F417D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756C1C37242A8846006F417D /* Interface.storyboard */; };
+		756C1C3B242A8848006F417D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756C1C3A242A8848006F417D /* Assets.xcassets */; };
+		756C1C42242A8848006F417D /* ProgressCircleBar_Test_WatchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 756C1C41242A8848006F417D /* ProgressCircleBar_Test_WatchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		756C1C47242A8848006F417D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756C1C46242A8848006F417D /* InterfaceController.swift */; };
+		756C1C49242A8848006F417D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756C1C48242A8848006F417D /* ExtensionDelegate.swift */; };
+		756C1C4B242A8848006F417D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756C1C4A242A8848006F417D /* NotificationController.swift */; };
+		756C1C4D242A8849006F417D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756C1C4C242A8849006F417D /* Assets.xcassets */; };
+		756C1C5E242A8895006F417D /* PogressBarInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756C1C5D242A8895006F417D /* PogressBarInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		756C1C34242A8846006F417D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 756C1C28242A8846006F417D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756C1C31242A8846006F417D;
+			remoteInfo = "ProgressCircleBar_Test_WatchOS WatchKit App";
+		};
+		756C1C43242A8848006F417D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 756C1C28242A8846006F417D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756C1C40242A8848006F417D;
+			remoteInfo = "ProgressCircleBar_Test_WatchOS WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		756C1C55242A8849006F417D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				756C1C42242A8848006F417D /* ProgressCircleBar_Test_WatchOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756C1C59242A8849006F417D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				756C1C33242A8846006F417D /* ProgressCircleBar_Test_WatchOS WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		756C1C2E242A8846006F417D /* ProgressCircleBar_Test_WatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressCircleBar_Test_WatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		756C1C32242A8846006F417D /* ProgressCircleBar_Test_WatchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProgressCircleBar_Test_WatchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756C1C38242A8846006F417D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		756C1C3A242A8848006F417D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		756C1C3C242A8848006F417D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756C1C41242A8848006F417D /* ProgressCircleBar_Test_WatchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ProgressCircleBar_Test_WatchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756C1C46242A8848006F417D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		756C1C48242A8848006F417D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		756C1C4A242A8848006F417D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		756C1C4C242A8849006F417D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		756C1C4E242A8849006F417D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756C1C4F242A8849006F417D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		756C1C5D242A8895006F417D /* PogressBarInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PogressBarInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		756C1C3E242A8848006F417D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		756C1C27242A8846006F417D = {
+			isa = PBXGroup;
+			children = (
+				756C1C36242A8846006F417D /* ProgressCircleBar_Test_WatchOS WatchKit App */,
+				756C1C45242A8848006F417D /* ProgressCircleBar_Test_WatchOS WatchKit Extension */,
+				756C1C2F242A8846006F417D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		756C1C2F242A8846006F417D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				756C1C2E242A8846006F417D /* ProgressCircleBar_Test_WatchOS.app */,
+				756C1C32242A8846006F417D /* ProgressCircleBar_Test_WatchOS WatchKit App.app */,
+				756C1C41242A8848006F417D /* ProgressCircleBar_Test_WatchOS WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		756C1C36242A8846006F417D /* ProgressCircleBar_Test_WatchOS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				756C1C37242A8846006F417D /* Interface.storyboard */,
+				756C1C3A242A8848006F417D /* Assets.xcassets */,
+				756C1C3C242A8848006F417D /* Info.plist */,
+				756C1C5D242A8895006F417D /* PogressBarInterfaceController.swift */,
+			);
+			path = "ProgressCircleBar_Test_WatchOS WatchKit App";
+			sourceTree = "<group>";
+		};
+		756C1C45242A8848006F417D /* ProgressCircleBar_Test_WatchOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				756C1C46242A8848006F417D /* InterfaceController.swift */,
+				756C1C48242A8848006F417D /* ExtensionDelegate.swift */,
+				756C1C4A242A8848006F417D /* NotificationController.swift */,
+				756C1C4C242A8849006F417D /* Assets.xcassets */,
+				756C1C4E242A8849006F417D /* Info.plist */,
+				756C1C4F242A8849006F417D /* PushNotificationPayload.apns */,
+			);
+			path = "ProgressCircleBar_Test_WatchOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		756C1C2D242A8846006F417D /* ProgressCircleBar_Test_WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756C1C5A242A8849006F417D /* Build configuration list for PBXNativeTarget "ProgressCircleBar_Test_WatchOS" */;
+			buildPhases = (
+				756C1C2C242A8846006F417D /* Resources */,
+				756C1C59242A8849006F417D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				756C1C35242A8846006F417D /* PBXTargetDependency */,
+			);
+			name = ProgressCircleBar_Test_WatchOS;
+			productName = ProgressCircleBar_Test_WatchOS;
+			productReference = 756C1C2E242A8846006F417D /* ProgressCircleBar_Test_WatchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		756C1C31242A8846006F417D /* ProgressCircleBar_Test_WatchOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756C1C56242A8849006F417D /* Build configuration list for PBXNativeTarget "ProgressCircleBar_Test_WatchOS WatchKit App" */;
+			buildPhases = (
+				756C1C30242A8846006F417D /* Resources */,
+				756C1C55242A8849006F417D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				756C1C44242A8848006F417D /* PBXTargetDependency */,
+			);
+			name = "ProgressCircleBar_Test_WatchOS WatchKit App";
+			productName = "ProgressCircleBar_Test_WatchOS WatchKit App";
+			productReference = 756C1C32242A8846006F417D /* ProgressCircleBar_Test_WatchOS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		756C1C40242A8848006F417D /* ProgressCircleBar_Test_WatchOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756C1C52242A8849006F417D /* Build configuration list for PBXNativeTarget "ProgressCircleBar_Test_WatchOS WatchKit Extension" */;
+			buildPhases = (
+				756C1C3D242A8848006F417D /* Sources */,
+				756C1C3E242A8848006F417D /* Frameworks */,
+				756C1C3F242A8848006F417D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProgressCircleBar_Test_WatchOS WatchKit Extension";
+			productName = "ProgressCircleBar_Test_WatchOS WatchKit Extension";
+			productReference = 756C1C41242A8848006F417D /* ProgressCircleBar_Test_WatchOS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		756C1C28242A8846006F417D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Julia Santos";
+				TargetAttributes = {
+					756C1C2D242A8846006F417D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					756C1C31242A8846006F417D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					756C1C40242A8848006F417D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 756C1C2B242A8846006F417D /* Build configuration list for PBXProject "ProgressCircleBar_Test_WatchOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 756C1C27242A8846006F417D;
+			productRefGroup = 756C1C2F242A8846006F417D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				756C1C2D242A8846006F417D /* ProgressCircleBar_Test_WatchOS */,
+				756C1C31242A8846006F417D /* ProgressCircleBar_Test_WatchOS WatchKit App */,
+				756C1C40242A8848006F417D /* ProgressCircleBar_Test_WatchOS WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		756C1C2C242A8846006F417D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756C1C30242A8846006F417D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756C1C3B242A8848006F417D /* Assets.xcassets in Resources */,
+				756C1C39242A8846006F417D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756C1C3F242A8848006F417D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756C1C4D242A8849006F417D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		756C1C3D242A8848006F417D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756C1C4B242A8848006F417D /* NotificationController.swift in Sources */,
+				756C1C49242A8848006F417D /* ExtensionDelegate.swift in Sources */,
+				756C1C47242A8848006F417D /* InterfaceController.swift in Sources */,
+				756C1C5E242A8895006F417D /* PogressBarInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		756C1C35242A8846006F417D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 756C1C31242A8846006F417D /* ProgressCircleBar_Test_WatchOS WatchKit App */;
+			targetProxy = 756C1C34242A8846006F417D /* PBXContainerItemProxy */;
+		};
+		756C1C44242A8848006F417D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 756C1C40242A8848006F417D /* ProgressCircleBar_Test_WatchOS WatchKit Extension */;
+			targetProxy = 756C1C43242A8848006F417D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		756C1C37242A8846006F417D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756C1C38242A8846006F417D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		756C1C50242A8849006F417D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		756C1C51242A8849006F417D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		756C1C53242A8849006F417D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7LP8JSPCF;
+				INFOPLIST_FILE = "ProgressCircleBar_Test_WatchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.ProgressCircleBar-Test-WatchOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		756C1C54242A8849006F417D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7LP8JSPCF;
+				INFOPLIST_FILE = "ProgressCircleBar_Test_WatchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.ProgressCircleBar-Test-WatchOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		756C1C57242A8849006F417D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7LP8JSPCF;
+				IBSC_MODULE = ProgressCircleBar_Test_WatchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "ProgressCircleBar_Test_WatchOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.ProgressCircleBar-Test-WatchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		756C1C58242A8849006F417D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7LP8JSPCF;
+				IBSC_MODULE = ProgressCircleBar_Test_WatchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "ProgressCircleBar_Test_WatchOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.ProgressCircleBar-Test-WatchOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		756C1C5B242A8849006F417D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7LP8JSPCF;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.ProgressCircleBar-Test-WatchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		756C1C5C242A8849006F417D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7LP8JSPCF;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "JS.ProgressCircleBar-Test-WatchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		756C1C2B242A8846006F417D /* Build configuration list for PBXProject "ProgressCircleBar_Test_WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756C1C50242A8849006F417D /* Debug */,
+				756C1C51242A8849006F417D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756C1C52242A8849006F417D /* Build configuration list for PBXNativeTarget "ProgressCircleBar_Test_WatchOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756C1C53242A8849006F417D /* Debug */,
+				756C1C54242A8849006F417D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756C1C56242A8849006F417D /* Build configuration list for PBXNativeTarget "ProgressCircleBar_Test_WatchOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756C1C57242A8849006F417D /* Debug */,
+				756C1C58242A8849006F417D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756C1C5A242A8849006F417D /* Build configuration list for PBXNativeTarget "ProgressCircleBar_Test_WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756C1C5B242A8849006F417D /* Debug */,
+				756C1C5C242A8849006F417D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 756C1C28242A8846006F417D /* Project object */;
+}
