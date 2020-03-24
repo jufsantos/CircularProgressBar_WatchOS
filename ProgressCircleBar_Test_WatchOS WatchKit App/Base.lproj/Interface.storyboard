@@ -12,6 +12,11 @@
                 <controller identifier="ProgressCircleBar" id="AgC-eL-Hgc" customClass="PogressBarInterfaceController" customModule="ProgressCircleBar_Test_WatchOS_WatchKit_Extension">
                     <items>
                         <spriteKitScene alignment="left" id="4Te-vn-L2t"/>
+                        <button width="1" alignment="left" title="Tap to Animate" id="JQW-vx-ksp">
+                            <connections>
+                                <action selector="button" destination="AgC-eL-Hgc" id="Ozf-7w-Sg4"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
                         <outlet property="interfaceScene" destination="4Te-vn-L2t" id="dAy-hF-YCK"/>
